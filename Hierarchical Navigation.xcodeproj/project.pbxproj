@@ -12,6 +12,10 @@
 		3FBC17681FCF863E00A48D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC17671FCF863E00A48D6C /* Assets.xcassets */; };
 		3FBC176B1FCF863E00A48D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBC17691FCF863E00A48D6C /* LaunchScreen.storyboard */; };
 		3FBC17731FCF8B3800A48D6C /* FavoruitesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC17721FCF8B3800A48D6C /* FavoruitesList.swift */; };
+		3FBC17771FCF91D000A48D6C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC17761FCF91D000A48D6C /* RootViewController.swift */; };
+		3FBC17791FCFA46B00A48D6C /* FontListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC17781FCFA46B00A48D6C /* FontListViewController.swift */; };
+		3FBC177B1FCFAC7000A48D6C /* FontSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC177A1FCFAC7000A48D6C /* FontSizesViewController.swift */; };
+		3FBC177D1FCFAF1400A48D6C /* FontInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC177C1FCFAF1400A48D6C /* FontInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		3FBC176A1FCF863E00A48D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FBC176C1FCF863E00A48D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FBC17721FCF8B3800A48D6C /* FavoruitesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoruitesList.swift; sourceTree = "<group>"; };
+		3FBC17761FCF91D000A48D6C /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		3FBC17781FCFA46B00A48D6C /* FontListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontListViewController.swift; sourceTree = "<group>"; };
+		3FBC177A1FCFAC7000A48D6C /* FontSizesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSizesViewController.swift; sourceTree = "<group>"; };
+		3FBC177C1FCFAF1400A48D6C /* FontInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				3FBC17601FCF863E00A48D6C /* AppDelegate.swift */,
 				3FBC17641FCF863E00A48D6C /* Main.storyboard */,
+				3FBC17761FCF91D000A48D6C /* RootViewController.swift */,
+				3FBC17721FCF8B3800A48D6C /* FavoruitesList.swift */,
 				3FBC17671FCF863E00A48D6C /* Assets.xcassets */,
 				3FBC17691FCF863E00A48D6C /* LaunchScreen.storyboard */,
 				3FBC176C1FCF863E00A48D6C /* Info.plist */,
-				3FBC17721FCF8B3800A48D6C /* FavoruitesList.swift */,
+				3FBC17781FCFA46B00A48D6C /* FontListViewController.swift */,
+				3FBC177A1FCFAC7000A48D6C /* FontSizesViewController.swift */,
+				3FBC177C1FCFAF1400A48D6C /* FontInfoViewController.swift */,
 			);
 			path = "Hierarchical Navigation";
 			sourceTree = "<group>";
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FBC177B1FCFAC7000A48D6C /* FontSizesViewController.swift in Sources */,
 				3FBC17611FCF863E00A48D6C /* AppDelegate.swift in Sources */,
+				3FBC17791FCFA46B00A48D6C /* FontListViewController.swift in Sources */,
+				3FBC177D1FCFAF1400A48D6C /* FontInfoViewController.swift in Sources */,
 				3FBC17731FCF8B3800A48D6C /* FavoruitesList.swift in Sources */,
+				3FBC17771FCF91D000A48D6C /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
